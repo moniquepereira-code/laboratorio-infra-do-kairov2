@@ -8,6 +8,7 @@ resource "aws_instance" "kairo_v2_staging" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "Kairo-V2-Staging"
+    "Kairo-V2-Staging-Teste-PR"
+    
   }
 }
